@@ -1,0 +1,243 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap')
+</style>
+body {
+  background-color: white;
+  color: black;
+  font-family: "맑은 고딕", "돋움", "굴림", sans-serif;
+  line-height: 1;
+}
+
+header {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.sale-notification {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+.sale-notification p {
+  margin: 0;
+}
+
+.home-content,
+.navbar,
+.navbar2 {
+}
+
+.home-content h1 {
+  width: 135px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - 67px);
+  top: 35px;
+  color: black;
+}
+
+h1:hover {
+  /* 다른 글꼴 찾아야함 */
+  font-style: italic;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  float: left;
+}
+
+.navbar2 {
+  list-style: none;
+  padding: 0;
+  float: right;
+}
+
+.navbar a,
+.navbar2 a {
+  color: grey;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar a.exclusive {
+  color: red;
+}
+.navbar a.exclusive:hover {
+  text-decoration: underline black;
+  color: red;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: rgb(63, 62, 62);
+  font-weight: bold;
+}
+
+section {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.image-box1 {
+  /* display: block; */
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 63.012%;
+  border: 0px;
+  align-items: center;
+  /* border: 0px; */
+}
+
+.image-box1 p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: gray;
+  margin-left: 10px;
+  /* text-align: left; */
+}
+
+.image-box2 {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.image-box2 p {
+  margin-top: 5px;
+  font-size: 11px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.image-box3 {
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.image-box3 p {
+  margin-top: 5px;
+  font-size: 11px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.image-box2,
+.image-box3 {
+  width: 30%;
+  display: inline-block;
+  margin: 25px;
+}
+
+.image-box2 p,
+.image-box3 p {
+  font-size: 14px;
+  color: gray;
+  text-align: left;
+}
+
+.Newin {
+  text-align: left;
+}
+.BAG {
+  text-align: left;
+}
+.SHOES {
+  text-align: left;
+}
+
+footer {
+  background-color: #fff;
+  text-align: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  color: #666;
+  font-size: 13px;
+}
+
+footer h5 {
+  color: grey;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.wrapper1 {
+  border: solid #fff;
+  position: fixed;
+  width: 100%;
+}
+
+.wrapper2 {
+  border: 1px solid grey;
+  padding: 3px;
+}
+
+footer p {
+  color: rgb(35, 35, 35);
+  font-size: 12px;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+.가입확인 {
+  text-decoration: underline;
+}
+
+.footer-content1 {
+  flex: 1;
+  text-align: justify;
+  line-height: 2;
+  max-width: 800px;
+}
+
+.footer-content4 {
+  color: black;
+  font-size: large;
+}
+
+.footer-content2,
+.footer-content3,
+.footer-content4 {
+  text-align: left;
+  margin: 0 3px;
+  line-height: 2;
+  padding: 58px;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: black;
+}
